@@ -142,5 +142,10 @@ namespace WinSpider
                 control.Top = (int)(control.Top * percentHeight);
             }
         }
+
+        private void CrawlPic_Load(object sender, EventArgs e)
+        {
+            skinEngine1.SkinFile = Application.StartupPath + @"\skin\MP10.ssk";
+        }
     }
 }

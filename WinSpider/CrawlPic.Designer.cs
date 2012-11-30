@@ -42,6 +42,7 @@
             this.gv = new System.Windows.Forms.DataGridView();
             this.序号 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.URL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.skinEngine1 = new Sunisoft.IrisSkin.SkinEngine(((System.ComponentModel.Component)(this)));
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gv)).BeginInit();
             this.SuspendLayout();
@@ -171,6 +172,11 @@
             this.URL.HeaderText = "URL";
             this.URL.Name = "URL";
             // 
+            // skinEngine1
+            // 
+            this.skinEngine1.SerialNumber = "";
+            this.skinEngine1.SkinFile = null;
+            // 
             // CrawlPic
             // 
             this.ClientSize = new System.Drawing.Size(506, 409);
@@ -181,6 +187,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CrawlPic";
             this.Text = "图片爬虫";
+            this.Load += new System.EventHandler(this.CrawlPic_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gv)).EndInit();
@@ -205,5 +212,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn 序号;
         private System.Windows.Forms.DataGridViewTextBoxColumn URL;
         private System.Windows.Forms.CheckBox checkBox1;
+        private Sunisoft.IrisSkin.SkinEngine skinEngine1;
     }
 }
