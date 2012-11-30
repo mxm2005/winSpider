@@ -1,0 +1,24 @@
+﻿2012-6-29 16:51:28无法解析此远程名称: 'image.baidu.comhttp'   在 System.Net.WebClient.OpenRead(Uri address)
+   在 System.Net.WebClient.OpenRead(String address)
+   在 WinSpider.CrawlPic.GetSinglePage(String url) 位置 D:\mxmcode\WinSpider\WinSpider\CrawlPic.cs:行号 92
+
+2012-6-29 16:51:31无法解析此远程名称: 'image.baidu.comhttp'   在 System.Net.WebClient.OpenRead(Uri address)
+   在 System.Net.WebClient.OpenRead(String address)
+   在 WinSpider.CrawlPic.GetSinglePage(String url) 位置 D:\mxmcode\WinSpider\WinSpider\CrawlPic.cs:行号 92
+
+2012-11-27 17:37:31基础连接已经关闭: 连接被意外关闭。   在 System.Net.WebClient.OpenRead(Uri address)
+   在 System.Net.WebClient.OpenRead(String address)
+   在 WinSpider.CrawlPic.GetSinglePage(String url) 位置 D:\mxmcode\WinSpider\WinSpider\CrawlPic.cs:行号 93
+
+2012-11-27 17:40:11基础连接已经关闭: 连接被意外关闭。   在 System.Net.WebClient.OpenRead(Uri address)
+   在 System.Net.WebClient.OpenRead(String address)
+   在 WinSpider.CrawlPic.GetSinglePage(String url) 位置 D:\mxmcode\WinSpider\WinSpider\CrawlPic.cs:行号 93
+
+2012-11-27 17:42:10基础连接已经关闭: 连接被意外关闭。   在 System.Net.WebClient.OpenRead(Uri address)
+   在 System.Net.WebClient.OpenRead(String address)
+   在 WinSpider.CrawlPic.GetSinglePage(String url) 位置 D:\mxmcode\WinSpider\WinSpider\CrawlPic.cs:行号 94
+
+2012-11-27 17:46:44基础连接已经关闭: 连接被意外关闭。   在 System.Net.WebClient.OpenRead(Uri address)
+   在 System.Net.WebClient.OpenRead(String address)
+   在 WinSpider.CrawlPic.GetSinglePage(String url) 位置 D:\mxmcode\WinSpider\WinSpider\CrawlPic.cs:行号 94
+
